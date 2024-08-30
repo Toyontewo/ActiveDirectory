@@ -27,8 +27,11 @@ Building an enterprise-grade environment using:
   - `ifconfig eth0 up`
 - Install tools like `nmap`, `Metasploit`
 
-### 📊 Splunk Server
+### 📊 Ubuntu Server (Splunk) Version 22.04
+- [Download URL](https://ubuntu.com/download/alternative-downloads)
 - **Install Splunk**: `dpkg -i splunk-package.deb`
+  ```bash
+  sudo apt-get update && sudo apt-get upgrade -y
 - Set up log forwarding (WEF):
   - `wevtutil qe Security /c:5 /rd:true /f:text`
   - Forward logs from Windows/Linux to Splunk
