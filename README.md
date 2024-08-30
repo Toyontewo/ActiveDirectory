@@ -30,6 +30,7 @@ Building an enterprise-grade environment using:
 ### 📊 Ubuntu Server (Splunk) Version 22.04
 - [Download URL](https://ubuntu.com/download/alternative-downloads)
 - **Install Splunk**: `dpkg -i splunk-package.deb`
+- Update and Upgrade all repo's
   ```bash
   sudo apt-get update && sudo apt-get upgrade -y
 - Set up log forwarding (WEF):
