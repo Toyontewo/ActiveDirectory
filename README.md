@@ -1,6 +1,5 @@
 # 🚀 Active Directory Lab Project
 
-![Welcome] (https://media.giphy.com/media/l0MYC0LajbaPoEADu/giphy.gif?cid=790b7611mz93wbkvsrhhtv7gkku563f6uvzhqgwn2akd7qaj&ep=v1_gifs_search&rid=giphy.gif&ct=g)
 
 **Welcome to the AD Lab Playground!**  
 Building an enterprise-grade environment using:
@@ -41,7 +40,7 @@ Building an enterprise-grade environment using:
 - 🛠️ **Security Hardening**: Bulletproof your setup.
 
 ## 📸 Screenshots (Soon)
-_Share the glory of your epic setup here!_
+
 
 ## 🛠️ Troubleshooting
 - **Common Issue**: Connection drop?  
