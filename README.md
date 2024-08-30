@@ -17,8 +17,6 @@ Building an enterprise-grade environment using:
 - Configure DNS & Group Policy
 
 ### 🖥️ Windows 10 Client
-- **Join Domain**:
-  - `Settings > Accounts > Access work or school > Connect`
 - Setup user profiles & Group Policies
 
 ### 🐉 Kali Linux (Hacker’s Playground)
@@ -29,13 +27,10 @@ Building an enterprise-grade environment using:
 
 ### 📊 Ubuntu Server (Splunk) Version 22.04
 - [Download URL](https://ubuntu.com/download/alternative-downloads)
-- **Install Splunk**: `dpkg -i splunk-package.deb`
 - Update and Upgrade all repo's
   ```bash
   sudo apt-get update && sudo apt-get upgrade -y
-- Set up log forwarding (WEF):
-  - `wevtutil qe Security /c:5 /rd:true /f:text`
-  - Forward logs from Windows/Linux to Splunk
+
 
 ## 🌟 Features Coming Soon
 - 💻 **SIEM Integration**: Level up Splunk as your SIEM warrior.
